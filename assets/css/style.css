@@ -39,6 +39,10 @@ h3:not(.sectionFormIcon){
     margin-left:4rem;
     
 }
+
+/* h4 >a {
+    text-decoration:underline;
+} */
 .sectionFormIcon{
     text-align:center;
 }
@@ -454,7 +458,7 @@ visibility: visible;
 padding-left:1rem;
 }
 
-.sectionProjectsGrid .card >img{
+.sectionProjectsGrid .card >.linkProjects>img,.sectionProjectsGrid .card >img{
     width:325px;
     height:325px;
     object-fit: cover;
