@@ -29,6 +29,7 @@ letter-spacing: 0.08rem;
 
 a{
     text-decoration:none;
+    
 }
 
 h2{
@@ -534,6 +535,11 @@ padding-left:1rem;
     height:30%;
     display:block;   
 }
+
+ .sectionContact a {
+    color: #424289;
+ }
+ 
 button{
     background-color: #424289;  
     border:#424289 1px solid;
