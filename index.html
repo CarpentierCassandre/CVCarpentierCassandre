@@ -79,30 +79,34 @@
                 <div class="sectionAboutSkillsBox1  sectionAboutSkillsBoxes">
                     <h4>Compétences</h4>
 
-                    <div class="containerRowAlignItemsCenter">
-                        <p>HTML5</p> <i class="fa-brands fa-html5"></i>
-                    </div>
-                    <div class="containerRowAlignItemsCenter">
-                        <p>CSS3</p> <i class="fa-brands fa-css3-alt"></i>
-                    </div>
-                    <div class="containerRowAlignItemsCenter">
-                        <p>Javascript</p> <i class="fa-brands fa-js"></i>
+                   
+                         <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i>
+                    
+                         <i class="fa-brands fa-js"></i> 
+                         <div class="containerRowAlignItemsCenter textAlign ">
+                         <i class="fa-brands fa-php"></i>
+                         <p>SQL</p>
                     </div>
                 </div>
 
                 <div class="sectionAboutSkillsBox2 sectionAboutSkillsBoxes">
                     <h4>Environnement technique</h4>
-                    <div class="containerRowAlignItemsCenter">
-                        <p>Figma</p> <i class="fa-brands fa-figma"></i>
-                    </div>
+                    
+                         <i class="fa-brands fa-figma"></i>
+                   
 
-                    <div class="containerRowAlignItemsCenter">
-                        <p>Wordpress </p> <i class="fa-brands fa-wordpress"></i>
-                    </div>
+                    
+                         <i class="fa-brands fa-wordpress"></i>
+                    
 
-                    <div class="containerRowAlignItemsCenter">
-                        <p>Bootstrap </p> <i class="fa-brands fa-bootstrap"></i>
+                    
+                         <i class="fa-brands fa-bootstrap"></i>
+                         <div class="containerRowAlignItemsCenter">
+                         <i class="fa-brands fa-github"></i>
+                         <p>My SQL</p>
+                         </div>
                     </div>
+                    
                 </div>
 
 
@@ -269,6 +273,7 @@
                         <p>pour les passionnés de littérature!!</p>
                         <p>En cours de réalisation</p>
                     </div>
+                    
                 </div>
                 
                 <div class="card" id="sectionProjectsGridBox6">
@@ -278,9 +283,19 @@
                         <h4>  SHIFUMI version Rocky  </h4>
                         <p>Jeu Shifumi tiré de la saga "Rocky Balboa"</p>
                     </a>
-                    </div>
-                
+                    </div>     
                 </div>
+                <div class="card" id="sectionProjectsGridBox7">
+                    <img src="assets/img/SuperRssreader.png" alt="image d'un site fictif de sports">
+                    <div class="intro">
+                        <h4> Site fictif "SuperRssreader" </h4>
+                        <p>Pour les amateurs de sports! </br>
+                        Création d'un site permettant d’afficher le contenu de plusieurs flux RSS. 
+                            
+                        </p>
+                        
+                </div>
+
                 </div>
 
                
@@ -290,7 +305,14 @@
         </section>
 
         <section id="sectionContact">
-
+            <div class="modalContainer">
+                <div class="overlay trigger"></div>
+                <div class="modalContent">
+                    <button class="buttonClose trigger">X</button>
+                    <h4>Numéro de téléphone :</h4>
+                    <p>06 10 77 21 93</p>
+                </div>
+            </div>
             <div id="about" class="titleAbout containerRowAlignItemsCenter"><i
                     class="fa-solid fa-chevron-right iconChevronContact"></i>
                 <h2 id="contactTitle"> Contact</h2>
@@ -313,12 +335,11 @@
 
                     <p> <a href="mailto:carpentiercassandre@gmail.com"> <i class="fa-solid fa-at"></i></a> E-Mail
                     </p>
-
-                    <button id="buttonPhone"><i class="fa-solid fa-phone phoneIcon"></i></button>
+                    <button id="buttonPhone" class="trigger"><i class="fa-solid fa-phone phoneIcon"></i></button>
                 </div>
 
 
-                <a href="assets/pdf/cvCassandreCarpentier.pdf"><i class="fa-solid fa-file-arrow-down"></i> Mon CV </a>
+                <a href="assets/pdf/cvcassandre.pdf"><i class="fa-solid fa-file-arrow-down"></i> Mon CV </a>
                 <img id="imgWebDeveloper" src="assets/img/webdeveloppeurter.png" alt="dessin web developpeur" />
 
             </div>
@@ -329,7 +350,7 @@
                 <div>
                     <h3 class="sectionFormIcon"><i class="fa-solid fa-envelope envelopIcon"></i> </h3>
                 </div>
-                <form method="get" action="" class="formGrid gridContainer">
+                <form method="POST" action="" class="formGrid gridContainer">
 
                     <div class="inputFirstname">
                         <label for="firstname">Prénom</label>
