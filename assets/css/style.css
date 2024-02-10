@@ -165,13 +165,14 @@
   .headerText {
       padding-right: 1rem;
 
+
   }
 
   .headerText>h1 {
 
       font-size: clamp(2.5rem, 1.8rem + 3.7333vw, 6rem);
       font-family: 'Orbitron', sans-serif;
-      margin-top: 2rem;
+      margin-top: 3rem;
       margin-left: 3rem;
   }
 
@@ -196,6 +197,8 @@
       justify-content: space-around;
       color: black;
       font-size: 18px;
+      margin-top:2rem;
+      margin-bottom:2rem;
   }
 
   .sectionAboutPresentationBox1 {
@@ -327,7 +330,6 @@
       color:#041F3C;
   }
   
-
   .relative {
       position: relative;
   }
@@ -369,7 +371,7 @@
   }
 
   .checkpoint div {
-      border: #424289 solid 2px;
+ 
       border-radius: 0.3em;
       padding: 1.5em;
       background-color:#424289 
@@ -389,12 +391,12 @@
   .checkpoint:nth-child(even) {
       border-right: 3px solid #424289 ;
       padding-right: 3em;
-      transform: translateX(calc(-17em + 3px));
+      transform: translateX(calc(-17em + 2.5px));
   }
 
   .checkpoint::before {
       content: '';
-      background: #041F3C;
+      background:  #424289 ;
       width: 3em;
       height: 3px;
       position: absolute;
@@ -742,7 +744,6 @@
        
       }
       #headerGridBox2{
-        border:black solid 1px;
         display:flex;
         flex-direction:column;
         justify-content:center;
